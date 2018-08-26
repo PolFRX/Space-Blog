@@ -1,0 +1,213 @@
+/* 				Polices					*/
+@font-face
+{
+	font-family: 'venus';
+	src: url('../polices/venus/venus rising rg.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/divers/dayrom.eot');
+    src: url('../polices/divers/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/divers/dayrom.woff') format('woff'),
+         url('../polices/divers/dayrom.ttf') format('truetype'),
+         url('../polices/divers/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*				Principal				*/
+
+body
+{
+	background: url(../images/fond3.jpg) fixed no-repeat;
+	text-align: center;
+}
+
+#page
+{
+	background-color: white;
+	border-radius: 15px;
+	min-height: 500px;
+	box-shadow: 2px 2px 2px black;
+	margin: 50px 0;
+}
+
+
+/*					Header					*/
+
+#head
+{
+	background: url('../images/separateur.png') repeat-x bottom;
+	margin-bottom: 10px;
+}
+
+header ul
+{
+	list-style: none;
+}
+
+header li
+{
+	margin-right:-5px;
+	margin-bottom: 10px;
+}
+
+header a
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Dayrom';
+	font-size: 1.8em;
+}
+
+header a:hover
+{
+	text-decoration: underline;
+	color:red;
+	text-shadow: 1px 1px 1px black;
+}
+
+header h1
+{
+	color: black;
+	font-weight: bold;
+	margin-top: 8px;
+	font-family: 'Dayrom';
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+}
+
+
+/*					Page 							*/
+
+#titre
+{
+	color: black;
+	font-weight: bold;
+	font-family: 'Dayrom';
+	text-decoration: underline;
+	font-size: 1.8em;
+	margin-top: 5px;
+	padding-bottom: 30px;
+}
+
+aside h2
+{
+	color: black;
+	font-family: 'Dayrom';
+	font-size: 2em;
+}
+
+#post
+{
+	min-height: 600px;
+	border: 3px #706b64 double;
+	margin-right: 50px;
+}
+
+aside
+{
+	margin-top: 10px;
+	min-height: 200px;
+}
+
+aside li
+{
+	color: black;
+}
+
+#info
+{
+	background-color: #706b64;
+	height: 200px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+#cadrephoto
+{
+	height: 200px;
+}
+
+#photo
+{
+	height: 200px;
+	width: 100%;
+	border: 2px #706b64 solid;
+}
+
+#fleche
+{
+	position: relative;
+	right: 10px;
+}
+
+aside ul,h2
+{
+	word-break: break-all;
+}
+
+aside ul
+{
+	list-style: none;
+	text-align: left;
+}
+
+aside li
+{
+	margin: 15px 0;
+}
+
+legend
+{
+	color: black;
+	font-family: 'Dayrom';
+	font-size: 1.5em;
+}
+
+#submit 
+{
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+
+#form
+{
+	background: url('../images/separateur.png') repeat-x bottom;
+	margin-bottom: 10px;
+}
+
+.commentaire
+{
+	border: 2px #706b64 solid;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	background: #80D0D0;
+}
+
+/*					footer 							*/
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+}
+
+footer img
+{
+	margin: -10px 10px;
+	height: 30px;
+	width: 30px;
+	padding-top: 50px;
+}
+
+footer p
+{
+	font-size: 0.8em;
+}

@@ -1,0 +1,140 @@
+/* 				Polices					*/
+@font-face
+{
+	font-family: 'venus';
+	src: url('../polices/venus/venus rising rg.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/divers/dayrom.eot');
+    src: url('../polices/divers/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/divers/dayrom.woff') format('woff'),
+         url('../polices/divers/dayrom.ttf') format('truetype'),
+         url('../polices/divers/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*				Principal				*/
+
+body
+{
+	background: url(../images/fond3.jpg) fixed no-repeat;
+	text-align: center;
+}
+
+#page
+{
+	background-color: white;
+	border-radius: 15px;
+	min-height: 500px;
+	box-shadow: 2px 2px 2px black;
+	margin: 50px 0;
+}
+
+
+/*					Header					*/
+
+#head
+{
+	background: url('../images/separateur.png') repeat-x bottom;
+	margin-bottom: 10px;
+}
+
+header ul
+{
+	list-style: none;
+}
+
+header li
+{
+	margin-right:-5px;
+	margin-bottom: 10px;
+}
+
+header a
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Dayrom';
+	font-size: 1.8em;
+}
+
+header a:hover
+{
+	text-decoration: underline;
+	color:red;
+	text-shadow: 1px 1px 1px black;
+}
+
+header h1
+{
+	color: black;
+	font-weight: bold;
+	margin-top: 8px;
+	font-family: 'Dayrom';
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+}
+
+
+/*					Page 							*/
+
+h2
+{
+	font-family: 'Dayrom';
+	font-size: 1.2em;
+}
+
+/*					Formulaire 							*/
+
+legend
+{
+	font-family: 'Dayrom';
+	font-weight: bold;
+}
+
+#contenu
+{
+	resize: none;
+	min-height: 400px;
+}
+
+.espace
+{
+	margin-bottom: 15px;
+}
+
+#submit
+{
+	width: 80px;
+	height: 40px;
+}
+
+
+/*					footer 							*/
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+}
+
+footer img
+{
+	margin: -10px 10px;
+	height: 30px;
+	width: 30px;
+	padding-top: 50px;
+}
+
+footer p
+{
+	font-size: 0.8em;
+}

@@ -1,0 +1,169 @@
+/* 				Polices					*/
+@font-face
+{
+	font-family: 'venus';
+	src: url('../polices/venus/venus rising rg.ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('../polices/divers/dayrom.eot');
+    src: url('../polices/divers/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('../polices/divers/dayrom.woff') format('woff'),
+         url('../polices/divers/dayrom.ttf') format('truetype'),
+         url('../polices/divers/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*				Principal				*/
+
+body
+{
+	background: url(../images/fond3.jpg) fixed no-repeat;
+	text-align: center;
+}
+
+#page
+{
+	background-color: white;
+	border-radius: 15px;
+	min-height: 700px;
+	box-shadow: 2px 2px 2px black;
+	margin: 50px 0;
+}
+
+
+/*					Header					*/
+
+#head
+{
+	background: url('../images/separateur.png') repeat-x bottom;
+	margin-bottom: 10px;
+}
+
+header ul
+{
+	list-style: none;
+}
+
+header li
+{
+	margin-right:-5px;
+	margin-bottom: 10px;
+}
+
+header a
+{
+	text-decoration: none;
+	color: black;
+	font-family: 'Dayrom';
+	font-size: 1.8em;
+}
+
+header a:hover
+{
+	text-decoration: underline;
+	color:red;
+	text-shadow: 1px 1px 1px black;
+}
+
+header h1
+{
+	color: black;
+	font-weight: bold;
+	margin-top: 8px;
+	font-family: 'Dayrom';
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+}
+
+
+/*					Page 							*/
+
+
+#titre
+{
+	color: black;
+	font-weight: bold;
+	font-family: 'Dayrom';
+	text-decoration: underline;
+	font-size: 1.8em;
+	margin-top: 5px;
+}
+
+h2
+{
+	font-family: 'Dayrom';
+	font-size: 1.2em;
+}
+
+/*					Articles					*/
+
+#ajouter_article 
+{
+	margin-right: 20px;
+}
+
+#plus
+{
+	height: 30px;
+	width: 30px;
+}
+
+article
+{
+	margin: 50px 0;
+	width: 280px;
+	height: 280px;
+	border-radius: 5px;
+}
+
+.texte_article
+{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(224,224,224,0.8);
+	padding: 0.5px 0;
+	width: 100%;
+	text-align: left;
+}
+
+article p
+{
+	margin-left: 10px;
+}
+
+article a
+{
+	float: right;
+	text-decoration: none;
+	position: relative;
+	right: 5px;
+}
+
+/*					footer 							*/
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+}
+
+footer img
+{
+	margin: -10px 10px;
+	height: 30px;
+	width: 30px;
+	padding-top: 50px;
+}
+
+footer p
+{
+	font-size: 0.8em;
+}
